@@ -54,6 +54,12 @@ h1 {
   font-size: 12vh;
 }
 
+h3 {
+  /* color: white; */
+  font-family: 'Barlow Condensed', sans-serif;
+  padding-top: 10px;
+}
+
 section {
   min-height: 100vh;
   display: flex;
@@ -67,10 +73,10 @@ section h2 {
 }
 
 img {
-  border-radius: 100%;
-  border-color: black;
-  border-style: solid;
-  width: 60vh;
+  /* border-radius: 100%; */
+  /* border-color: black; */
+  /* border-style: solid; */
+  width: 100%;
 }
 
 footer {
@@ -111,6 +117,7 @@ footer {
 .work {
   /* background: linear-gradient(to right top, #1c92d2, #f2fcfe) */
   background: #191C1F;
+  /* display: block; */
 }
 
 .resume {
@@ -119,6 +126,22 @@ footer {
 
 .contact {
   background: linear-gradient(to right top, #1c92d2, #f2fcfe)
+}
+
+.project {
+  background-color: white;
+  border-style: solid;
+  border-color: black;
+  display: inline-block;
+  justify-content: space-around;
+  margin: auto;
+  margin-left: 25px;
+  margin-right: 25px;
+  width: 50vh;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .bubble {
