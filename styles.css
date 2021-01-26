@@ -34,6 +34,7 @@ nav {
 
 nav h1,
 nav ul {
+font-family: 'Barlow Condensed', sans-serif;
  font-size: 1.5rem;
  flex: 1;
 }
@@ -79,6 +80,13 @@ img {
   width: 100%;
 }
 
+.beach-pic {
+  border-style: solid;
+  border-radius: 100%;
+  border-width: 5px;
+  width: 80vh;
+}
+
 footer {
   background-color: white;
   top: 0px;
@@ -106,8 +114,7 @@ footer {
 }
 
 .about {
-  background: linear-gradient(to right top, #CAC531, #F3F9A7)
-  /* color: white; */
+  background: white;
 }
 
 .skills {
