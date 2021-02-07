@@ -21,6 +21,7 @@ header {
   position: sticky;
   top: 0px;
   background: white;
+  z-index: 1;
 }
 
 nav {
@@ -150,6 +151,17 @@ footer {
   padding-right: 5px;
   padding-top: 5px;
   padding-bottom: 5px;
+}
+
+#work {
+  justify-content: space-between;
+}
+
+.card {
+  display: flex;
+  /* width: 30vh; */
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 @media screen and (max-width: 1205px) {
