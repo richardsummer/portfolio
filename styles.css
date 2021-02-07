@@ -152,11 +152,15 @@ footer {
   padding-bottom: 5px;
 }
 
-.bubble {
-  /* position: absolute;
-  z-index: -2;
-  background: black;
-  color: white;
-  transform: scale(2);
-  transition: all 0.2s ease; */
+@media screen and (max-width: 1205px) {
+  .beach-pic {
+    /* display: none; */
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 1398px) {
+  #work {
+    padding: 20px;
+  }
 }
